@@ -12,6 +12,11 @@
 .leftnav {
   grid-column: 1;
   grid-row: 1;
+  
+  display:flex;
+  gap:20px;
+  align-items: center;
+  padding-left: 20px;
 }
 
 .logo {
@@ -22,6 +27,12 @@
 .rightnav {
   grid-column: 3;
   grid-row: 1;
+
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 20px;
 }
 
 .bigimage {
