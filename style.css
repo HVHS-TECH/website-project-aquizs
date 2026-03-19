@@ -17,17 +17,25 @@ font-size: 25px;
   gap:20px;
   align-items: center;
   padding-left: 100px;
+  text-decoration: none;
+  color: #0b1e3c;
 }
 
 .logo {
   grid-column: 2;
   grid-row: 1;
 
-  width: 170px;
-  height: 100px;
-  margin-top: -10px;
+  width: 200px;
+  height: 70px;
+  margin-top: 0px;
   background-color: powderblue;
   z-index: 2;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .rightnav {
@@ -39,24 +47,33 @@ font-size: 25px;
   align-items: center;
   justify-content: flex-end;
   padding-right: 100px;
+  text-decoration: none;
+  color: #0b1e3c;
 }
 
 .bigimage {
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row: 2;
+  position: relative;
+}
+
+.bigimage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bigimagetext {
+  margin-top: -300px;
+  margin-left: 150px;
+  color: white;
 }
 
 .bottom {
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row: 3;
-}
-
-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 a {
