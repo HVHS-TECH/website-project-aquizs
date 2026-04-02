@@ -54,20 +54,17 @@ font-size: 25px;
 }
 
 .card1, .card2, .card3 {
-  background-color: grey;
-  border: ;
+  background-color: rgb(206, 206, 206);
+  width: 90%;
+  height: 90%;
+  border: #0F2747;
+  border-width: 100px;
+  margin-top: 80px;
 } 
 
-a {
-  text-decoration: none;
-  color:white;
-  padding: 8px 16px;
-  border-radius: 6px;
-  position: relative;
-}
-
-a:hover {
-  text-decoration: underline;
+.card1 {
+  width: 10%;
+  height: 10%;
 }
 
 .card1, img{
@@ -83,4 +80,23 @@ a:hover {
 .card3 img{
   width: 100%;
   height: auto;
+}
+
+
+a {
+  text-decoration: none;
+  color:white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  position: relative;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.henryvamderlith {
+  width: 1000%;
+  height: 10px;
+  depth: 100000%;
 }
