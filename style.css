@@ -1,12 +1,15 @@
 body {
   background: #0F2747;
   margin: 0;
+  background: url("images/sunset.png");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .container {
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 80px 400px 100px;
+  grid-template-rows: 80px 400px auto;
 }
 
 .container div {
@@ -98,7 +101,6 @@ font-size: 25px;
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row: 3;
-  background-color: #132f4a;
 }
 
 /* /////////////////////// bottom*/
