@@ -53,33 +53,38 @@ font-size: 25px;
   text-decoration: none;
 }
 
-.card1, .card2, .card3 {
-  background-color: rgb(206, 206, 206);
-  width: 90%;
-  height: 90%;
-  border: #0F2747;
-  border-width: 100px;
-  margin-top: 80px;
+.cards {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px 100px;
+  gap: 30px;
 } 
 
-.card1 {
-  width: 10%;
-  height: 10%;
+.card {
+  background-color: rgb(177, 177, 177);
+  width: 30%;
+  border-radius: 10px;
+  text-align: center;
+  overflow: hidden;
 }
 
-.card1, img{
+.card img {
   width: 100%;
-  height: auto;
+  height: 200px;
+  object-fit: cover;
 }
 
-.card2 img{
-  width: 100%;
-  height: auto;
+.card h1 {
+  font-size: 20px;
+  margin: 10px 0;
 }
 
-.card3 img{
-  width: 100%;
-  height: auto;
+.card p {
+  font-size: 15px;
+  padding: 0 10px 15px;
 }
 
 
@@ -93,10 +98,4 @@ a {
 
 a:hover {
   text-decoration: underline;
-}
-
-.henryvamderlith {
-  width: 1000%;
-  height: 10px;
-  depth: 100000%;
 }
