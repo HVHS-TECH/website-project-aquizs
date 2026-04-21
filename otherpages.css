@@ -1,7 +1,12 @@
 body {
+  margin: 0;
   background: #0F2747;
   margin: 0;
+  background: url("images/sunset.png");
+  background-size: cover;
+  background-attachment: fixed;
 }
+
 
 .container {
   display:grid;
@@ -87,7 +92,6 @@ font-size: 25px;
   padding: 0 10px 15px;
 }
 
-
 a {
   text-decoration: none;
   color:white;
@@ -98,4 +102,38 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.cardsnews {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px 100px;
+  gap: 30px;
+} 
+
+.cardnews {
+  background-color: rgb(216, 216, 216);
+  width: 40%;
+  border-radius: 10px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.cardnews img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cardnews h1 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.cardnews p {
+  font-size: 15px;
+  padding: 0 10px 15px;
 }
