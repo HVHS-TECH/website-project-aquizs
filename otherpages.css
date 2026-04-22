@@ -11,7 +11,7 @@ body {
 .container {
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 80px 500px 300px;
+  grid-template-rows: 80px auto auto;
 }
 
 .container div {
@@ -136,4 +136,21 @@ a:hover {
 .cardnews p {
   font-size: 15px;
   padding: 0 10px 15px;
+}
+
+.title {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+}
+
+.title h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.title p {
+  font-size: 25px;
 }
